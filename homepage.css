@@ -1,0 +1,207 @@
+:root{
+    --brand:rgb(15, 15, 95);
+}
+.btn-outline-brand{
+    color: var(--brand);
+    border-color:var(--brand) ;
+}
+#navbar{
+    background-color: rgb(255 255 255);
+    padding: 10px;
+    color: var(--brand);
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+}
+.nav-links:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.front-wall{
+    height: auto;
+    background: url('./media/LogosAndBranding/bikebgmain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wall-inner-container{
+    min-height: auto;
+    background: linear-gradient(var(--brand),rgba(15, 15, 95, 0.776),var(--brand));
+}
+.wall-sub-sec-1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+}
+.wall-sub-sec-2{
+    color: white;
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 1rem;
+}
+.history-block{
+    height: 10rem;
+    text-align: left;
+    align-items: center;
+    background-color: var(--brand);
+    position: relative;
+    z-index: 1;
+}
+.slider-bar{
+    top: 65rem;
+    position: absolute;
+    background: url('./media/LogosAndBranding/road.jpg');
+    background-size: contain;
+    width: 0px;
+    height: 60rem;
+    left: 50vw;
+    border-radius: 20px;
+    z-index: 2;
+}
+.slider{
+    position: sticky;
+    top: 50%;
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    transform: rotateZ(180deg);
+    /* animation: vibrate 0.3s ease-in-out infinite; Adjust the duration and timing function as needed */
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-1px); }
+    40% { transform: translateX(1px); }
+    60% { transform: translateX(-1px); }
+    80% { transform: translateX(1px); }
+    100% { transform: translateX(0); }
+  }
+  .bg-bike-1{
+    background: url('./media/LogosAndBranding/img1.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .bg-bike-2{
+    background: url('./media/LogosAndBranding/img2.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .bg-bike-3{
+    background: url('./media/LogosAndBranding/img3.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .bg-bike-4{
+    background: url('./media/LogosAndBranding/img4.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .bg-bike-5{
+    background: url('./media/LogosAndBranding/img5.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .bg-bike-6{
+    background: url('./media/LogosAndBranding/img6.webp');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+  .history-block{
+    background-color: var(--brand);
+  }
+  .history-block .container{
+    background-color: white;
+    border-radius: 20px;
+    color: var(--brand);
+    box-shadow: 10px 10px 20px black;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    gap: 10px;
+    padding: 2rem;
+  }
+  img{
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }
+  .galary-heading{
+    color: var(--brand);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 5rem;
+  }
+  .address{
+    background-color: var(--brand);
+    padding: 2rem;
+    box-shadow: 0 0 10px var(--brand);
+  }
+  .address-heading{
+    color: white;
+    font-size: 2rem;
+  }
+  .card-img-top {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .card {
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .btn-primary {
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+  }
+  .btn-brand{
+    color: white;
+    background-color: var(--brand);
+  }
+  .footer{
+    background-color: var(--brand);
+    color: rgba(255, 255, 255, 0.616);
+    list-style: none;
+    text-align: start;
+    margin-bottom: 0;
+  }
+  .footer li{
+    list-style: none;
+  }
+  html{
+    background-color: var(--brand);
+  }
