@@ -28,7 +28,7 @@
 }
 .wall-inner-container{
     min-height: auto;
-    background: linear-gradient(var(--brand),rgba(15, 15, 95, 0.776),var(--brand));
+    background: linear-gradient(var(--brand),rgba(15, 15, 95, 0.36),var(--brand));
 }
 .wall-sub-sec-1{
     color: white;
@@ -204,4 +204,33 @@
   }
   html{
     background-color: var(--brand);
+  }
+  iframe{
+    max-width: 100%;
+  }
+  .lg-nav{
+    display: flex;
+  }
+  .sm-nav{
+    display: none;
+  }
+  @media screen and (max-width:1000px) {
+    .slider-bar{
+      top: 84rem;
+      position: absolute;
+      background: url('./media/LogosAndBranding/road.jpg');
+      background-size: contain;
+      width: 0px;
+      height: 68rem;
+      left: 3vw;
+      border-radius: 20px;
+      z-index: 2;
+    }
+    .lg-nav{
+      display: none;
+    }
+    .sm-nav{
+      display: flex;
+    }
+    
   }
