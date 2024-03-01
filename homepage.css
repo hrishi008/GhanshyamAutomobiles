@@ -214,6 +214,10 @@
   .sm-nav{
     display: none;
   }
+  .row m-0 mx-auto py-4 text-center:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
   @media screen and (max-width:1000px) {
     .slider-bar{
       top: 84rem;
